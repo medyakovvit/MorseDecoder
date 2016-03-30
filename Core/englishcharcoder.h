@@ -3,6 +3,8 @@
 
 #include <QHash>
 
+/* Holds codes for english letters */
+
 class EnglishCharCoder
 {
 public:

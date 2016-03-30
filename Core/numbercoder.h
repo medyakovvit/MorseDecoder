@@ -5,6 +5,7 @@
 
 #include <QHash>
 
+/* Holds codes for numbers */
 
 class CORESHARED_EXPORT NumberCoder
 {

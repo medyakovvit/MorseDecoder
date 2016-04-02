@@ -3,7 +3,10 @@
 
 #include <QChar>
 
-// Present item in Morse Code Tree
+/*!
+ * \class MorseCodeNode
+ * \brief Present item in Morse Code Tree
+*/
 
 class MorseCodeNode
 {

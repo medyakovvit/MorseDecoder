@@ -7,7 +7,10 @@
 
 #include "fileloader.h"
 
-/*Read txt file from the disc*/
+/*!
+ * \class TxtFileLoader
+ * \brief Read txt file.
+*/
 
 class CORESHARED_EXPORT TxtFileLoader : public FileLoader
 {

@@ -5,6 +5,10 @@
 
 #include <abstracttranslator.h>
 
+/*!
+  \class TranslatorFactory
+  \brief Creates translator with the appropriate type
+*/
 class CORESHARED_EXPORT TranslatorFactory
 {
 public:

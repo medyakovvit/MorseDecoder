@@ -5,6 +5,10 @@
 
 #include <QObject>
 
+/*! \class FileLoader
+ * \brief Abstract class for file writers
+*/
+
 class CORESHARED_EXPORT FileWriter : public QObject
 {
     Q_OBJECT

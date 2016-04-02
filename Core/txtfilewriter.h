@@ -4,7 +4,10 @@
 #include <QObject>
 #include "filewriter.h"
 
-/* Writes text to *.txt file */
+/*!
+ * \class TxtFileWriter
+ * Writes text to *.txt file.
+*/
 
 class CORESHARED_EXPORT TxtFileWriter : public FileWriter
 {

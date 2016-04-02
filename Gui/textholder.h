@@ -6,6 +6,11 @@
 #include <fileloader.h>
 #include <filewriter.h>
 
+/*!
+ * \class TextHolder
+ * Holds texts for input and output fields.
+*/
+
 class TextHolder : public QObject
 {
     Q_OBJECT
@@ -15,8 +20,23 @@ class TextHolder : public QObject
 public:
     explicit TextHolder(QObject *parent = 0);
     ~TextHolder();
+
+    /*!
+     * Load text from file using appropriate file loader.
+     * @param fileLoader
+    */
     void load(FileLoader* fileLoader);
+
+    /*!
+     * Save text from input field using appropriate file loader.
+     * @param fileWriter
+    */
     void saveInput(FileWriter* fileWriter);
+
+    /*!
+     * Save text from output field using appropriate file loader.
+     * @param fileWriter
+    */
     void saveOutput(FileWriter* fileWriter);
 
     QString input()const{return m_input;}

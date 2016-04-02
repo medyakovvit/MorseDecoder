@@ -3,7 +3,9 @@
 
 #include <QHash>
 
-/* Holds codes for english letters */
+/*! \class EnglishCharCoder
+ * \brief Holds codes for english letters
+*/
 
 class EnglishCharCoder
 {

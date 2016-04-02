@@ -3,7 +3,10 @@
 
 #include <QHash>
 
-/* Holds codes for punctuation symbols */
+/*!
+ * \class SymbolCoder
+ * \brief Holds codes for punctuation symbols
+*/
 
 class SymbolCoder
 {

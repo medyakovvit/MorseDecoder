@@ -6,10 +6,13 @@
 #include "abstracttranslator.h"
 #include "morsecodetree.h"
 
-/* Translate Morse code to English text. Class uses
-Morse code tree to hold symbols and codes. Morse code tree is
-binary tree, where root node has symbol '\0'. Morse code considered
-like path in the tree. Each node has pointers to left(dot) and right(dash)*/
+/*!
+ * \class MorseToEnglishTranslator
+ * \brief Translate Morse code to English text.
+ * Class uses Morse code tree to hold symbols and codes. Morse code tree is
+ * binary tree, where root node has symbol '\0'. Morse code considered
+ * like path in the tree. Each node has pointers to left(dot) and right(dash)
+*/
 
 class CORESHARED_EXPORT MorseToEnglishTranslator : public AbstractTranslator
 {

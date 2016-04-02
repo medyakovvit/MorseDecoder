@@ -6,8 +6,10 @@
 
 #include "abstracttranslator.h"
 
-/* Translate english text to Morse code. Class uses
-hashtable to hold symbols(Key) and codes(Value)*/
+/*! \class EngToMorseTranslator
+ * \brief Translate english text to Morse code.
+ * Class uses hashtable to hold symbols(Key) and codes(Value)
+*/
 
 class CORESHARED_EXPORT EngToMorseTranslator : public AbstractTranslator
 {

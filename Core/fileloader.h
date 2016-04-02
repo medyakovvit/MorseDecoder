@@ -5,7 +5,9 @@
 
 #include <QObject>
 
-/*Abstract class for file loaders*/
+/*! \class FileLoader
+ * \brief Abstract class for file loaders
+*/
 
 class CORESHARED_EXPORT FileLoader : public QObject
 {

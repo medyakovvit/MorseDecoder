@@ -5,7 +5,7 @@
 
 #include <QString>
 
-#include "morsecodenode.h"
+class MorseCodeNode;
 
 /*!
  * \class MorseCodeTree

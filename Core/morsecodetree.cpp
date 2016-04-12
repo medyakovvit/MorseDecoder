@@ -1,5 +1,7 @@
 #include "morsecodetree.h"
 
+#include "morsecodenode.h"
+
 MorseCodeTree::MorseCodeTree() :
     p_root(0)
 {

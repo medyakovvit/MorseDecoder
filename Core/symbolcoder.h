@@ -1,6 +1,8 @@
 #ifndef SYMBOLCODER_H
 #define SYMBOLCODER_H
 
+#include "core_global.h"
+
 #include <QHash>
 
 /*!
@@ -8,7 +10,7 @@
  * \brief Holds codes for punctuation symbols
 */
 
-class SymbolCoder
+class CORESHARED_EXPORT SymbolCoder
 {
 public:
     SymbolCoder();

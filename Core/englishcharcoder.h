@@ -1,13 +1,15 @@
 #ifndef ENGLISHCHARCODER_H
 #define ENGLISHCHARCODER_H
 
+#include "core_global.h"
+
 #include <QHash>
 
 /*! \class EnglishCharCoder
  * \brief Holds codes for english letters
 */
 
-class EnglishCharCoder
+class CORESHARED_EXPORT EnglishCharCoder
 {
 public:
     EnglishCharCoder();

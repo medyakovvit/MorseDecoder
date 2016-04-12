@@ -6,4 +6,5 @@ SUBDIRS += \
     MorseToEnglishTranslator \
     MorseCodeTree \
     TxtFileLoader \
-    TxtFileWriter
+    TxtFileWriter \
+    Hash_Tree_Benchmark
